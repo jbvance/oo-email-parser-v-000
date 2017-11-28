@@ -20,6 +20,5 @@ class EmailParser
       ret.push(email) if email != "" && !ret.include?(email)
     end
     ret
-    #binding.pry
   end
 end
